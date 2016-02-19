@@ -12,11 +12,12 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
-import sun.org.mozilla.javascript.internal.json.JsonParser;
-
 import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 public class Common {
+
+
 
 	/**
 	 * 公众号APPID
@@ -153,4 +154,6 @@ public class Common {
 		return s;
 	}
 
+
+	
 }
